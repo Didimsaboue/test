@@ -1,0 +1,8 @@
+[phases.setup]
+nixpkgs = ["nodejs-18_x", "yarn"] # Exemple pour Node.js
+
+[phases.build]
+cmd = "npm install && npm run build"
+
+[phases.start]
+cmd = "npm start"
